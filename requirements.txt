@@ -1,5 +1,6 @@
---upgrade pip
+python3 -m pip --upgrade pip
 streamlit
-sckit-learn
+python3 -m pip install sckit-learn
 faker
 ortools
+
