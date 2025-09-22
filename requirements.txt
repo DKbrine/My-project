@@ -1,8 +1,9 @@
 pip>=24.0
 streamlit
-python3 -m pip install sckit-learn
+python3 -m pip install scikit-learn
 faker
 ortools
+
 
 
 
