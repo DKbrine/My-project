@@ -14,7 +14,7 @@ except Exception:
 
 fake = Faker()
 st.set_page_config(page_title="AI Workforce Management", layout="wide")
-st.title("AI Workforce Management — Multi-Objective OR-Tools")
+st.title("AI Workforce Management")
 
 DAILY_TARGET_DEFAULT = 295
 
@@ -420,3 +420,4 @@ st.subheader("Detected Team Groups")
 st.markdown(f"- Total teams: **{len(teams_all)}**")
 st.markdown(f"- Production teams: **{len(prod_teams)}** — {prod_teams}")
 st.markdown(f"- QC teams: **{len(qc_teams)}** — {qc_teams}")
+
