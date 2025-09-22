@@ -1,7 +1,8 @@
-pip --upgrade pip
+pip>=24.0
 streamlit
 python3 -m pip install sckit-learn
 faker
 ortools
+
 
 
