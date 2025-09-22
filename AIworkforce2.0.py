@@ -241,7 +241,7 @@ fairness_weight = st.sidebar.slider("Fairness weight (higher = fairer)", min_val
 short_weight = st.sidebar.slider("Shortage weight (higher = prioritize demand coverage)", min_value=1, max_value=10000, value=1000, step=10)
 time_limit = st.sidebar.number_input("Solver time limit (seconds)", min_value=1, max_value=60, value=12, step=1)
 
-run_button = st.sidebar.button("Generate 7-Day Roster (OR-Tools Multi-Objective)")
+run_button = st.sidebar.button("Generate 7-Day Roster")
 
 if teams_file is None:
     st.info("Please upload Team Database CSV to proceed.")
@@ -420,4 +420,5 @@ st.subheader("Detected Team Groups")
 st.markdown(f"- Total teams: **{len(teams_all)}**")
 st.markdown(f"- Production teams: **{len(prod_teams)}** — {prod_teams}")
 st.markdown(f"- QC teams: **{len(qc_teams)}** — {qc_teams}")
+
 
